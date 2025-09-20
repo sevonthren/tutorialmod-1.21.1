@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import stos.tutorialmod.item.ModItems;
 
 //very important comment
 public class Tutorialmod implements ModInitializer {
@@ -13,5 +14,6 @@ public class Tutorialmod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+        ModItems.registerMainItems();
 	}
 }
