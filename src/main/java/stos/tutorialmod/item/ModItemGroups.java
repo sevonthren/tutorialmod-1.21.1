@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
+                        entries.add(ModBlocks.PINK_GARNET_ORE);
                     }).build());
 
     public static void registerModItemGroups() {
